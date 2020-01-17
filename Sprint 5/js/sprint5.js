@@ -191,3 +191,13 @@ function controlador(){
         controlador();
     });
 };
+$("#logIn").click(function(){
+    $("#user button").hide();
+    $("#user").prepend("<tr><td><input type='text' name='email' class='form-control' id='email' placeholder='Email' required></td></tr>");
+    $("#user").append("<td><input type='password' name='pass' class='form-control' id='pass' placeholder='Password' required></td>");
+    $("#user").append("<td><button class='btn btn-primary' type='button' name='submit' class='form-control' id='submit'>Entra</button></td>");
+
+});
+$("#register").click(function(){
+
+});

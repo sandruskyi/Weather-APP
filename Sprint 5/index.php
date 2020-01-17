@@ -119,6 +119,14 @@
             </select>
           </div>
         </div>
+        <div class="col-xs-6 col-md-6 col-lg-6">
+          <div class="input-group mb-3">
+            <div id="user">
+              <button class="btn btn-primary" type="button" id="logIn">Log In</button>
+              <button class="btn btn-primary" type="button" id="register">Register</button>
+            </div>
+          </div>
+        </div>
       </div>
       <br>
     </section>
