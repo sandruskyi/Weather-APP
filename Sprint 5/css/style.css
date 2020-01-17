@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+  background-color: rgb(161, 228, 228);
+}
+div{
+  border: 2px solid black;
+
+}
+
+.infoprin{
+    width: 65%;
+    float: left;
+    
+}
+
+.refrescar{
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.tempactual{
+    float: right;
+}
+.imgprin{
+  width: 40%;  
+}
+.imgdias{
+  width: 90%;  
+}
+
+.detallesActual{
+    text-align: center;
+}
